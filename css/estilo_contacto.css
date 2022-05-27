@@ -1,0 +1,132 @@
+body{
+	display: grid;
+	min-height: 100vh;
+	grid-template-rows: auto 1fr auto;
+}
+
+
+.fondo__top{
+	background: url(../img/ley-10.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 30vh;
+	margin-top: 0px;
+}
+.fondo__top h2{
+	position: relative;
+	text-align:center;
+	vertical-align: middle;
+	align-items: center;
+	color: #fff;
+	font-size: 30px; 
+	top: 20%;
+	bottom: 50%;
+	text-shadow:  5px 5px 5px #000;
+}
+
+
+
+.dato__contacto{
+	margin-left: 20px;
+	font-size: 17px;
+}
+.dato__contacto a{
+	color: #000;
+}
+
+.dato__contacto i{
+	margin: 10px;
+}
+
+.barra{
+	background-color: black;
+	height: 3px;
+	display: flex;
+	margin-right: 10px;
+}
+
+.ubicacion__mapa{
+	margin-top: 20px;
+	margin-left: 50px;
+	margin-right: 20px;
+	width: 70%;
+}
+
+
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    padding:52px 0;
+}
+
+.enviar__correo{
+	margin-top: 50px;
+	background: #2c3e50;
+    height: auto;
+}
+
+.titulo-correo, .subtitulo-correo{
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    font-size: 56px;
+}
+
+.subtitulo-correo{
+    font-size: 16px;
+    margin-bottom: 64px;
+}
+
+form{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+
+}
+
+input[type="text"], input[type="email"]{
+    display: inline-block;
+    width:48%;
+    padding: 13px;
+    border: none;
+    color:#fff;
+    font-family: 'open sans';
+    background: rgba(37,37,33,.7);
+    margin-bottom: 16px;
+    border-top: 5px solid rgba(37,37,33,.7);
+}
+
+input[type="text"]:focus, input[type="email"]:focus{
+    border-top: 5px solid rgba(255, 255, 255, 0.7);
+    font-size: 30px;
+}
+
+textarea{
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 200px;
+    min-height: 200px;
+    background: rgba(37,37,33,.7);
+    padding: 13px;
+    border: none;
+    color:#fff;
+    font-family: 'open sans';
+    margin-bottom: 16px;
+    font-size: 30px;
+}
+
+input[type="submit"]{
+    display: inline-block;
+    padding: 13px;
+    border: none;
+    color:#fff;
+    background: rgba(37,37,33,.7);
+    width: 96px;
+    font-size: 20px;
+}

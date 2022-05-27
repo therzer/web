@@ -1,0 +1,44 @@
+body{
+	display: grid;
+	min-height: 100vh;
+	grid-template-rows: auto 1fr auto;
+}
+
+.pregunta{
+	background-color: orange;
+	border-radius: 20px;
+	margin-right: 20%;
+	margin-left: 20%;
+}
+.pregunta h2{
+	text-align: center;
+	font-size: 19px;
+	padding-top: 15px;
+}
+.pregunta h3{
+	text-align: center;
+	font-size: 15px;
+	padding-bottom: 10px;
+}
+
+.articulo__despido{
+	width: 100%;
+    padding:52px 0;
+  
+    background-color: #2a2928;
+    color: #fff;
+    top: 70%;
+}
+.titulo{
+	
+	margin: auto;
+	top: 5%;
+	margin-left: 20px;
+}
+.parrafo{
+	height: auto;
+	margin-left: 20%;
+	margin-right: 20%;
+	text-align: justify;
+	font-size: 16px;
+}

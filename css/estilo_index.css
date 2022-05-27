@@ -1,0 +1,104 @@
+body{
+	display: grid;
+	min-height: 100vh;
+	grid-template-rows: auto 1fr auto;
+}
+
+.fondo__top{
+	background: url(../img/ley-1.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 40vh;
+	margin-top: 0px;
+}
+.fondo__top h2{
+	cursor:default;
+	position: relative;
+	text-align:center;
+	vertical-align: middle;
+	color: #fff;
+	font-size: 30px; 
+	top: 10%;
+	bottom: 50%;
+	text-shadow:  5px 5px 5px #000;
+}
+
+.contenedor{
+	cursor:default;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    padding:52px 0;
+}
+.parrafo{
+	cursor:default;
+    margin-bottom: 13px;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 24px;
+    color: rgb(24,16,16);
+}
+
+.especialidad{
+	font-size: 40px;
+	margin-bottom: 13px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 24px;
+    color: rgb(24,16,16);
+    margin-top: 60px;
+}
+.contenedor__especialidad{
+	width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    padding:52px 0;
+}
+.cards{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card{
+	cursor:default;
+    margin: 20px 0;
+    width: 30%;
+    height: 250px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 0px 4px rgb(52, 73, 94, 0.849);
+}
+
+.cards img{
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+.card a{
+	font-size: 20px;
+	text-decoration: none;
+	color: #000;
+}
+.fondo__bot{
+	background: url(../img/ley-15.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 30vh;
+}
+.fondo__bot h4{
+	cursor:default;	
+	position: relative;
+	text-align:center;
+	vertical-align: middle;
+	color: #fff;
+	font-size: 30px; 
+	top: 30%;
+	bottom: 50%;
+	text-shadow:  5px 5px 5px #000;
+}

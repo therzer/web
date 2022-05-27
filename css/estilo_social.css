@@ -1,0 +1,38 @@
+body{
+	display: grid;
+	min-height: 100vh;
+	grid-template-rows: auto 1fr auto;
+}
+
+.fondo__top{
+	background: url(../img/ley-15.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 40vh;
+	margin-top: 0px;
+}
+.fondo__top h2{
+	cursor:default;
+	position: relative;
+	text-align:center;
+	vertical-align: middle;
+	color: #fff;
+	font-size: 30px; 
+	top: 10%;
+	bottom: 50%;
+	text-shadow:  5px 5px 5px #000;
+}
+
+
+.pregunta{
+	background-color: orange;
+	border-radius: 20px;
+	margin-right: 20%;
+	margin-left: 20%;
+}
+.pregunta h2{
+	text-align: center;
+	font-size: 19px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}

@@ -1,0 +1,111 @@
+body{
+	font-family: sans-serif;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+}
+a:hover{
+	color: #EFB810;
+}
+
+.contacto__rapido{
+	display: flex;
+	background-color: #bdb5b5;
+}
+.contacto__rapido i{
+	margin: 10px;
+	
+}
+.telefono{
+	animation: vibracion 1s infinite;
+}
+
+@keyframes vibracion{
+  10%, 30%, 50%, 70%, 90% {
+    transform: translateX(-2px);
+  }
+  20%, 40%, 60%, 80%{
+    transform: translateX(1px);
+  }
+  5%, 25%, 45%, 65%, 85% {
+    transform: translateY(-1px);
+  }
+  15%, 35%, 55%, 75%{
+    transform: translateY(1px);
+  }    
+}
+
+.contacto__rapido p{
+	margin: 2px;
+	color: #fff;
+}
+
+header{
+	 display: flex;
+	 justify-content: space-between;
+	 min-height: 55px;
+	 background-color: #000;
+	 align-items: center;
+}
+
+.nav_limk-contacto{
+	background-color: #a9a9a9;
+	border-radius: 16px;
+	text-align: center;
+}
+
+.logo img{
+	height: 50px;
+	align-items: center;
+	margin-left: 10px;
+	margin-top: 2px;
+}
+
+nav{
+	padding-right: 40px;
+}
+
+nav a{
+	font-weight: 600;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+nav a:hover{
+	color: #c2c2c2;
+}
+
+ul, ol{
+	list-style: none;
+}
+
+nav li a{
+	display: block;
+}
+
+nav > li{
+	float: left;
+
+}
+
+nav ul{
+	display: none;
+	position: absolute;
+	min-width: 140px;
+}
+
+
+@media (max-width: 700px){
+	header{
+		flex-direction: column;
+	}
+	nav{
+		padding: 10px 0px;
+	}
+	.contacto__rapido{
+		display: grid;
+	}
+}
